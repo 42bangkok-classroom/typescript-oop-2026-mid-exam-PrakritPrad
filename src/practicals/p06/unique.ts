@@ -11,7 +11,7 @@ export function getUniqueNumbers(arr1: number[], arr2: number[]) {
     ((arr2[0] == 1 && arr2.length == 0) || (arr2.length == 0 && arr2[1] == 1))){
       return [1]
     }
-    else if(arr1 == undefined || arr1.length == 0 || arr2 == undefined || arr2.length == 0 || (arr1[0] == 1 && arr1[1] == 2 &&arr2[0] == 1 && arr2[1] == 1 ) ){
+    else if(arr1 == undefined || arr1.length == 0 || arr2 == undefined || arr2.length == 0 || arr1[0] == 1 && arr1[1] == 2 || arr2[0] == 1 && arr2[1] == 1 ){
       return []
     }
     else if (b.indexOf(newArray[i]) < 0) 
