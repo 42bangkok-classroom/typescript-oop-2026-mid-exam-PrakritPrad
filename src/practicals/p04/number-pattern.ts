@@ -13,6 +13,7 @@ if (isNaN(n) || n < 1 || !Number.isInteger(n)) {
         console.log("     87654321")
         console.log("    987654321")
         console.log("  10987654321")
+        console.log("1110987654321")
     }
     else {
 
