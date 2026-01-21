@@ -5,7 +5,7 @@ let Input1 = Number(process.argv[2]);
 
 if(Number.isNaN(Input1)||(Input1 < 0) || (Input1 > 100) || process.argv[2] === '' || !process.argv[2] || process.argv[2] === " " ){
    console.log("Invalid input");
-   process.exit();  
+
 }
 
 if(Input1 >= 50 && Input1 < 60){
